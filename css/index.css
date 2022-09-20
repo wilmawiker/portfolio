@@ -1,0 +1,68 @@
+/* hex- koder 
+#ffcdb2
+#ffb4a2
+#e5989b
+#b5838d
+#6d6875*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body {
+    height: 100vh;
+    background-color: #ffcdb2;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.index-header {
+    background:linear-gradient(360deg, hsla(21, 100%, 85%, 1) 0%, hsla(263, 6%, 43%, 1) 100%);
+    width: 100%;
+    height: 10%;
+    margin: 0;
+}
+
+.navbar {
+    width: 98%;
+    display: flex;
+    color: #6d6875;
+    padding-left: 2%;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 30px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-items {
+    font-size: 2em;
+}
+
+.index-content{
+    display: flex;
+    padding-top: 20%;
+    padding-left: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items:baseline;
+}
+
+h1 {
+    color: #6d6875;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+h4 {
+    color: #b5838d;
+}
+
+h1, h4 {
+    font-weight: 300;
+}
