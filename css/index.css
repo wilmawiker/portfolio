@@ -117,7 +117,8 @@ h1, h2, h4, p {
 }
 
 .download-button {
-    width: 25%;
+    font-size: 3vh;
+    width: 25vh;
     height: 35px;
     display: flex;
     justify-content: center;
@@ -174,4 +175,8 @@ h1, h2, h4, p {
         margin: 0;
         padding: 0;
     }
+
+    /* .download-button {
+        width: 5vh;
+    } */
 }
